@@ -18,6 +18,20 @@
 \insertlogoii[width=7cm]{src/CS21.png}
 % \usetheme{Simple}
 
+\newcounter{tablecounter}
+\newenvironment{tikztable}[1][]{
+  \def \rememberparameter{#1}
+  \vspace{10pt}
+  \refstepcounter{tablecounter}
+  \begin{center}
+  }{
+    \ifx\rememberparameter\@empty
+    \else
+    \\[10pt]
+    {\small Tab.~\thetablecounter: \rememberparameter}
+    \fi
+  \end{center}
+}
 
 
 \renewcommand\maketitle[1][]{  % #1 keys
@@ -122,6 +136,9 @@
 \usepackage{setspace}
 \usepackage{fontspec}
 \usepackage[T1]{fontenc}
+\usepackage{adjustbox}
+\usepackage{tikz}
+\usepackage{xcolor}
 
 \tikzposterlatexaffectionproofoff
 
@@ -129,103 +146,159 @@
 	\maketitle
 	\begin{columns}
 	    \column{0.33}
-		\block{Abstract}{
-			\tikzpar The Jao Gap, a 17 percent decrease in stellar density at
-			$M_{G} \sim 10$ identified in both Gaia DR2 and EDR3 data, presents a
-			new method to probe the interior structure of stars near the fully
-			convective transition mass. The Gap is believed to originate from
-			convective kissing instability wherein asymmetric production of 3He
-			causes the core convective zone of a star to periodically expand
-			and contract and consequently the stars’ luminosity to vary.
-			Modeling of the Gap has revealed a sensitivity in its magnitude to
-			a population’s metallicity and consequently opacity. Thus far,
-			models of the Jao Gap have relied on OPAL high-temperature
-			radiative opacities. Here we present updated synthetic population
-			models tracing the Gap location modeled with the Dartmouth stellar
-			evolution code using the OPLIB high-temperature radiative
-			opacities. Use of these updated opacities changes the predicted
-			location of the Jao Gap by ~0.05 mag as compared to models which
-			use the OPAL opacities. 
+		\block{Abstract}{\fontsize{38}{45}\selectfont
+			\tikzpar The Jao Gap (Jao et al. 2018), a 17 percent decrease in
+			stellar density at $M_{G} \sim 10$ identified in both Gaia DR2 and
+			EDR3 data, presents a new method to probe the interior structure of
+			stars near the fully convective transition mass. The Gap is
+			believed to originate from convective kissing instability wherein
+			asymmetric production of 3He causes the core convective zone of a
+			star to periodically expand and contract and consequently the
+			stars’ luminosity to vary. Modeling of the Gap has revealed a
+			sensitivity in its magnitude to a population’s metallicity and
+			consequently opacity. Thus far, models of the Jao Gap have relied
+			on OPAL high-temperature radiative opacities.  However, OPLIB
+			opacities (Colgan et al. 2016) are more up to date. Use of these
+			updated opacities changes the predicted location of the Jao Gap by
+			~0.05 mag as compared to models which use the OPAL opacities. 
 
 			\vspace{-25mm}
 	    }
-	    \block{Updating Opacities}{
+		\block{Updating Opacities}{\fontsize{38}{45}\selectfont
 	    \vspace{-5mm}
-			\tikzpar The OPAL opacity tables are very widely used by current
-			generation stellar evolution programs (in addition to current
-			generation stellar model and isochrone grids). However, they are no
-			longer the most up date or highest presicion elemental opacities.
-			Moreover, the generation mechanism for these tables, a webform, is
-			no longer reliably online.  Consequently, it makes sense to
-			transition to more modern opacity tables with a more stable
-			generation mechanism, OPLIB from the T-1 group at Los Alamos.
-			
-			\tikzpar The most up to date OPLIB tables include monochromatic
-			Rosseland mean opacities for elements hydrogen through zinc over
-			temperatures 0.5eV to 100 keV and for mass densities from
-			approximately $10^{-8}$ g cm$^{-3}$ up to approximately $10^{4}$ g
-			cm$^{-3}$ (though the exact mass density range varies as a function
-			of temperature).
-	        
 			\begin{tikzfigure}[Solar Calibrated Stellar Models using both OPAL
 				(black) and OPLIB (red) high--temperature opacity tables.]
-				\includegraphics[width=0.20\textwidth]{src/Figures/HRDiagramOPALvsOPLIB_SCCM.pdf}
+				\includegraphics[width=0.28\textwidth]{src/Figures/HRDiagramOPALvsOPLIB_SCCM.pdf}
 			\end{tikzfigure}
 
-			For $\log(R)=-1.5$, OPAL and OPLIB opacities vary up to
-			approximately 2\% when $T\geq10^{6}$ K. The calibrated solar model
-			above shows that variations of this order are not expected to
-			dramatically alter a stars evolutionary path. However, these small
-			variations may be more impactful for stars at or near the
-			convective transition mass where small changes in $\kappa$ can
-			result in large changes in $T$ for a constant $\nabla_{rad}$.
+			\tikzpar For $\log(R)=-1.5$, OPAL and OPLIB opacities vary up to
+			approximately 2\% when $T\geq10^{6}$ K. We calibrate a solar model
+			(above) to confirm that variations of this order do not
+			dramatically alter a solar model's evolutionary path.
+
+
+			\tikzpar These small variations may be more impactful for stars at or near
+			the convective transition mass. The interior structure, which is
+			believed to result in the Jao Gap, of such stars is very sensitive
+			to temperature; therefore, small changes in opacity may be more
+			impactful than in higher mass models.
 	    }
-	
-		\block{Modeling}{
-			
+
+		\block{References}{
+			\begin{minipage}[t]{0.75\linewidth}
+				{\fontsize{24}{22}\selectfont
+				\begin{enumerate}
+					\item Dotter, A., Chaboyer, B., Jevremovi ́c, D., et al. 2008, The Astrophysical Journal Supplement Series, 178, 89 
+					\item van Saders, J. L., \& Pinsonneault, M. H. 2012, The Astrophysical Journal, 751, 98
+					\item Jao, W.-C., Henry, T. J., Gies, D. R., \& Hambly, N. C. 2018, ApJL, 861, L11,
+				\end{enumerate}
+				}
+			\end{minipage}%
+			\begin{adjustbox}{valign=t}
+			\begin{minipage}[t]{0.25\linewidth}
+				\hspace{5mm}
+				\includegraphics[scale=0.65]{src/QR.pdf}
+			\end{minipage}
+			\end{adjustbox}
+			{\fontsize{24}{22}\selectfont
+			\begin{enumerate}
+				 \setcounter{enumi}{3}
+				 \item Colgan, J., Kilcrease, D. P., Magee, N. H., et al. 2016, in APS Meeting Abstracts, Vol. 2016, APS Division of Atomic, Molecular and Optical Physics Meeting Abstracts, D1.008
+			\end{enumerate}
+			}
 		}
-
-	    \block{Acknowledgments}{
-				This research has made use of NASA's astrophysical data system
-				(ADS). We acknowledge the support of an NASA grant (No.
-				80NSSC18K0634). Additionally, we would like to thank James
-				Colgan for his assistance with the OPLIB opacity tables. We
-				would like to thank Aaron Dotter, and Elisabeth Newton for
-				their assistance. Finally, we thank our colleagues and peers in
-				for their continuing and appreciated support.
-
-
-            }
+	
 
 	    \column{0.66}
-		\block{Modeling the Gap}{
+		\block{Modeling the Gap}{\fontsize{38}{45}\selectfont
 			A theoretical explanation for the Jao Gap comes from
-			[CITE], who propose that in a star directly above the
+			van Saders \& Pinsonneault 2012, who propose that in a star directly above the
 			transition mass, due to asymmetric production and destruction of
 			He$^{3}$ during the proton-proton I chain (ppI), periodic
-			luminosity variations can be induced. This process is known as
-			convective-kissing instability. Such a star will descend the pre-MS
-			with a radiative core; however, as the star reaches the zero age
-			main sequence (ZAMS) and as the core temperature exceeds $7\times
-			10^{6}$ K, enough energy will be produced by the ppI chain that the
-			core becomes convective. At this point the star exists with both a
-			convective core and envelope, in addition to a thin, radiative,
-			layer separating the two. Subsequently, asymmetries in ppI affect
-			the evolution of the star's convective core.
+			luminosity variations can be induced. This is known
+			as convective-kissing instabilitie.
 			
-	        \begin{tikzfigure}[Internal Evolution of a star experiencing convective kissing instabilities.]
-	        \includegraphics[scale=1]{src/Figures/Kippenhan.pdf}
+	        \begin{tikzfigure}[Internal Evolution of a star experiencing convective kissing instabilities. The shaded region shows the where in the model radiative transport dominates.]
+	        \includegraphics[width=0.6\textwidth]{src/Figures/NBFigs/Kippenhan.pdf}
 	        \end{tikzfigure}
 
-			We evolve a set of models with very finely spaced masses (between
-			0.2 and 0.8 M$_{\odot}$, dM=0.002 M$_{\odot}$) using the Dartmouth
-			Stellar Evolution Program (DSEP, Dotter et al. 2008)
+			We evolve a set of models with very finely spaced masses (dM=0.002
+			M$_{\odot}$) using DSEP (Dotter et al. 2008). These models are
+			transformed into Gaia DR2 bolometric magnitudes. Photometric and
+			astrometric uncertainties are introduced into the sampled
+			populations using empirically calibrated relations between Gaia DR2
+			parameters.
 
-	        \begin{tikzfigure}[Jao Gap in population synthetis]
-	        \includegraphics[scale=1]{src/Figures/OPALOPLIB_popsynth_comp.pdf}
+			\begin{tikzfigure}[Population synthethis results derived from models evolved using OPAL high temperature opacity tables and models evolved using OPLIB high temperature opacity tables. A gaussian kernel density estimator is displayed on top of the points. Note how the Jao gap is visible in both but at a different $M_{G}$.]
+	        \includegraphics[scale=1]{src/Figures/NBFigs/OPALOPLIB_popsynth_comp_clampedTime.pdf}
 	        \end{tikzfigure}
 
+			\vspace{-2cm}
 	    }
+		\block{Locating the Gap}{\fontsize{38}{45}\selectfont
+			\begin{minipage}[t]{0.33\linewidth}
+				We locate the Jao Gap using troughs in the number density of
+				points along the magnitude axis. Because that density function
+				tends to be noisy we run a butter low-pass filter over it
+				before selecting all peaks with a prominence greater than 0.1
+				as potential Jao Gap locations. 
+			\end{minipage}%
+			\begin{adjustbox}{valign=t}
+			\begin{minipage}[t]{0.66\linewidth}
+				\begin{tikzfigure}[We locate the Jao Gap when using OPAL opacity tables at $M_{G} \sim 10.16$ mag]
+					\includegraphics[scale=1]{src/Figures/NBFigs/OPAL_Jao_locator.pdf}
+				\end{tikzfigure}
+			\end{minipage}
+			\end{adjustbox}
+
+			\begin{adjustbox}{valign=t}
+			\begin{minipage}[t]{0.66\linewidth}
+				\begin{tikzfigure}[Both Jao Gap locations are dimmer than OPAL. This is in line with the slightly lower opacity in OPLIB.]
+					\includegraphics[scale=1]{src/Figures/NBFigs/OPLIB_Jao_locator.pdf}
+				\end{tikzfigure}
+			\end{minipage}
+			\end{adjustbox}
+			\begin{minipage}[t]{0.33\linewidth}
+
+			\begin{tikztable}[Identified Jao Gap Locations]
+				\centering
+				\begin{tabular}{l | r r}
+					\hline
+					peak & $M_{G}$ & Prominence \\
+					\hline
+					\hline
+					OPAL$_{1}$ & 10.15933 & 0.15671\\
+					OPLIB$_{1}$ & 10.17718 & 0.17795 \\
+					OPLIB$_{2}$ & 10.21218 & 0.32097 \\
+				\end{tabular}
+			\end{tikztable}
+
+			{\begin{center}
+				\bf{\color{Dgreen}\large Acknowledgments}
+			\end{center}}
+			{
+			\fontsize{23}{20}\selectfont
+			We acknowledge the support of an NASA grant (No.
+			80NSSC18K0634). Additionally, we would like to thank James
+			Colgan for his assistance with the OPLIB opacity tables. We
+			would also like to thank Aaron Dotter and Elisabeth Newton.
+			}
+
+
+
+
+			\end{minipage}%
+
+			% \column{0.33}
+			% \begin{tikzfigure}[Test]
+			% 	\includegraphics[scale=0.4]{src/Figures/NBFigs/OPLIB_Jao_locator.pdf}
+			% 	\includegraphics[scale=0.4]{src/Figures/NBFigs/OPAL_Jao_locator.pdf}
+			% \end{tikzfigure}
+            %
+			% \column{0.33}
+			% Test Text
+
+		}
 
 		% \column{0.25}
         %

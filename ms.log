@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.1.21)  15 JUN 2022 09:41
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.1.21)  17 JUN 2022 09:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,23 +645,24 @@ tex)
 \c@figurecounter=\count119
 )
 \LogoSep=\skip46
+\c@tablecounter=\count120
 
 
 Package tikzposter Warning: Unknown color palette `sampleColorPalette'. on inpu
-t line 102.
+t line 116.
 
 
-Package tikzposter Warning: Unknown backgroundstyle `sample'. on input line 102
+Package tikzposter Warning: Unknown backgroundstyle `sample'. on input line 116
 .
 
 
-Package tikzposter Warning: Unknown titlestyle `Test'. on input line 102.
+Package tikzposter Warning: Unknown titlestyle `Test'. on input line 116.
 
 
-Package tikzposter Warning: Unknown blockstyle `Simple'. on input line 102.
+Package tikzposter Warning: Unknown blockstyle `Simple'. on input line 116.
 
 
-Package tikzposter Warning: Unknown innerblockstyle `Simple'. on input line 102
+Package tikzposter Warning: Unknown innerblockstyle `Simple'. on input line 116
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
@@ -675,7 +676,7 @@ Package inputenc Warning: inputenc package ignored with utf8 based engines.
 ) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen301
 \WF@size=\dimen302
-\c@WF@wrappedlines=\count120
+\c@WF@wrappedlines=\count121
 \WF@box=\box70
 \WF@everypar=\toks31
 Package: wrapfig 2003/01/31  v 3.6
@@ -700,13 +701,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count121
+\inf@bad=\count122
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count122
-\leftroot@=\count123
+\uproot@=\count123
+\leftroot@=\count124
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count124
-\DOTSCASE@=\count125
+\classnum@=\count125
+\DOTSCASE@=\count126
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -715,15 +716,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen305
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count126
-\c@MaxMatrixCols=\count127
+\macc@depth=\count127
+\c@MaxMatrixCols=\count128
 \dotsspace@=\muskip10
-\c@parentequation=\count128
-\dspbrk@lvl=\count129
+\c@parentequation=\count129
+\dspbrk@lvl=\count130
 \tag@help=\toks33
-\row@=\count130
-\column@=\count131
-\maxfields@=\count132
+\row@=\count131
+\column@=\count132
+\maxfields@=\count133
 \andhelp@=\toks34
 \eqnshift@=\dimen306
 \alignsep@=\dimen307
@@ -748,17 +749,17 @@ Package: expl3 2018-06-14 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018-06-14 L3 programming layer (code)
-\c_max_int=\count133
-\l_tmpa_int=\count134
-\l_tmpb_int=\count135
-\g_tmpa_int=\count136
-\g_tmpb_int=\count137
-\g__kernel_prg_map_int=\count138
-\c_log_iow=\count139
-\l_iow_line_count_int=\count140
-\l__iow_line_target_int=\count141
-\l__iow_one_indent_int=\count142
-\l__iow_indent_int=\count143
+\c_max_int=\count134
+\l_tmpa_int=\count135
+\l_tmpb_int=\count136
+\g_tmpa_int=\count137
+\g_tmpb_int=\count138
+\g__kernel_prg_map_int=\count139
+\c_log_iow=\count140
+\l_iow_line_count_int=\count141
+\l__iow_line_target_int=\count142
+\l__iow_one_indent_int=\count143
+\l__iow_indent_int=\count144
 \c_zero_dim=\dimen312
 \c_max_dim=\dimen313
 \l_tmpa_dim=\dimen314
@@ -777,75 +778,75 @@ Package: expl3 2018-06-14 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count144
-\l__intarray_loop_int=\count145
+\l_keys_choice_int=\count145
+\l__intarray_loop_int=\count146
 \c__intarray_sp_dim=\dimen318
-\g__intarray_font_int=\count146
-\c__fp_leading_shift_int=\count147
-\c__fp_middle_shift_int=\count148
-\c__fp_trailing_shift_int=\count149
-\c__fp_big_leading_shift_int=\count150
-\c__fp_big_middle_shift_int=\count151
-\c__fp_big_trailing_shift_int=\count152
-\c__fp_Bigg_leading_shift_int=\count153
-\c__fp_Bigg_middle_shift_int=\count154
-\c__fp_Bigg_trailing_shift_int=\count155
-\g__fp_array_int=\count156
-\l__fp_array_loop_int=\count157
-\l__sort_length_int=\count158
-\l__sort_min_int=\count159
-\l__sort_top_int=\count160
-\l__sort_max_int=\count161
-\l__sort_true_max_int=\count162
-\l__sort_block_int=\count163
-\l__sort_begin_int=\count164
-\l__sort_end_int=\count165
-\l__sort_A_int=\count166
-\l__sort_B_int=\count167
-\l__sort_C_int=\count168
-\l__tl_analysis_normal_int=\count169
-\l__tl_analysis_index_int=\count170
-\l__tl_analysis_nesting_int=\count171
-\l__tl_analysis_type_int=\count172
-\l__regex_internal_a_int=\count173
-\l__regex_internal_b_int=\count174
-\l__regex_internal_c_int=\count175
-\l__regex_balance_int=\count176
-\l__regex_group_level_int=\count177
-\l__regex_mode_int=\count178
-\c__regex_cs_in_class_mode_int=\count179
-\c__regex_cs_mode_int=\count180
-\l__regex_catcodes_int=\count181
-\l__regex_default_catcodes_int=\count182
-\c__regex_catcode_L_int=\count183
-\c__regex_catcode_O_int=\count184
-\c__regex_catcode_A_int=\count185
-\c__regex_all_catcodes_int=\count186
-\l__regex_show_lines_int=\count187
-\l__regex_min_state_int=\count188
-\l__regex_max_state_int=\count189
-\l__regex_left_state_int=\count190
-\l__regex_right_state_int=\count191
-\l__regex_capturing_group_int=\count192
-\l__regex_min_pos_int=\count193
-\l__regex_max_pos_int=\count194
-\l__regex_curr_pos_int=\count195
-\l__regex_start_pos_int=\count196
-\l__regex_success_pos_int=\count197
-\l__regex_curr_char_int=\count198
-\l__regex_curr_catcode_int=\count199
-\l__regex_last_char_int=\count266
-\l__regex_case_changed_char_int=\count267
-\l__regex_curr_state_int=\count268
-\l__regex_step_int=\count269
-\l__regex_min_active_int=\count270
-\l__regex_max_active_int=\count271
-\l__regex_replacement_csnames_int=\count272
-\l__regex_match_count_int=\count273
-\l__regex_min_submatch_int=\count274
-\l__regex_submatch_int=\count275
-\l__regex_zeroth_submatch_int=\count276
-\g__regex_trace_regex_int=\count277
+\g__intarray_font_int=\count147
+\c__fp_leading_shift_int=\count148
+\c__fp_middle_shift_int=\count149
+\c__fp_trailing_shift_int=\count150
+\c__fp_big_leading_shift_int=\count151
+\c__fp_big_middle_shift_int=\count152
+\c__fp_big_trailing_shift_int=\count153
+\c__fp_Bigg_leading_shift_int=\count154
+\c__fp_Bigg_middle_shift_int=\count155
+\c__fp_Bigg_trailing_shift_int=\count156
+\g__fp_array_int=\count157
+\l__fp_array_loop_int=\count158
+\l__sort_length_int=\count159
+\l__sort_min_int=\count160
+\l__sort_top_int=\count161
+\l__sort_max_int=\count162
+\l__sort_true_max_int=\count163
+\l__sort_block_int=\count164
+\l__sort_begin_int=\count165
+\l__sort_end_int=\count166
+\l__sort_A_int=\count167
+\l__sort_B_int=\count168
+\l__sort_C_int=\count169
+\l__tl_analysis_normal_int=\count170
+\l__tl_analysis_index_int=\count171
+\l__tl_analysis_nesting_int=\count172
+\l__tl_analysis_type_int=\count173
+\l__regex_internal_a_int=\count174
+\l__regex_internal_b_int=\count175
+\l__regex_internal_c_int=\count176
+\l__regex_balance_int=\count177
+\l__regex_group_level_int=\count178
+\l__regex_mode_int=\count179
+\c__regex_cs_in_class_mode_int=\count180
+\c__regex_cs_mode_int=\count181
+\l__regex_catcodes_int=\count182
+\l__regex_default_catcodes_int=\count183
+\c__regex_catcode_L_int=\count184
+\c__regex_catcode_O_int=\count185
+\c__regex_catcode_A_int=\count186
+\c__regex_all_catcodes_int=\count187
+\l__regex_show_lines_int=\count188
+\l__regex_min_state_int=\count189
+\l__regex_max_state_int=\count190
+\l__regex_left_state_int=\count191
+\l__regex_right_state_int=\count192
+\l__regex_capturing_group_int=\count193
+\l__regex_min_pos_int=\count194
+\l__regex_max_pos_int=\count195
+\l__regex_curr_pos_int=\count196
+\l__regex_start_pos_int=\count197
+\l__regex_success_pos_int=\count198
+\l__regex_curr_char_int=\count199
+\l__regex_curr_catcode_int=\count266
+\l__regex_last_char_int=\count267
+\l__regex_case_changed_char_int=\count268
+\l__regex_curr_state_int=\count269
+\l__regex_step_int=\count270
+\l__regex_min_active_int=\count271
+\l__regex_max_active_int=\count272
+\l__regex_replacement_csnames_int=\count273
+\l__regex_match_count_int=\count274
+\l__regex_min_submatch_int=\count275
+\l__regex_submatch_int=\count276
+\l__regex_zeroth_submatch_int=\count277
+\g__regex_trace_regex_int=\count278
 \c_empty_box=\box73
 \l_tmpa_box=\box74
 \l_tmpb_box=\box75
@@ -890,28 +891,28 @@ Package: expl3 2018-06-14 L3 programming layer (code)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
 File: l3xdvidpfmx.def 2018-06-14 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count278
+\g__driver_image_int=\count279
 ))
 Package: xparse 2018-05-12 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count279
-\g__xparse_grabber_int=\count280
-\l__xparse_m_args_int=\count281
-\l__xparse_mandatory_args_int=\count282
-\l__xparse_v_nesting_int=\count283
+\l__xparse_current_arg_int=\count280
+\g__xparse_grabber_int=\count281
+\l__xparse_m_args_int=\count282
+\l__xparse_mandatory_args_int=\count283
+\l__xparse_v_nesting_int=\count284
 )
 Package: fontspec 2018/07/30 vv2.6h Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2018/07/30 vv2.6h Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count284
-\l__fontspec_language_int=\count285
-\l__fontspec_strnum_int=\count286
-\l__fontspec_tmp_int=\count287
-\l__fontspec_em_int=\count288
-\l__fontspec_emdef_int=\count289
-\l__fontspec_strong_int=\count290
-\l__fontspec_strongdef_int=\count291
+\l__fontspec_script_int=\count285
+\l__fontspec_language_int=\count286
+\l__fontspec_strnum_int=\count287
+\l__fontspec_tmp_int=\count288
+\l__fontspec_em_int=\count289
+\l__fontspec_emdef_int=\count290
+\l__fontspec_strong_int=\count291
+\l__fontspec_strongdef_int=\count292
 \l__fontspec_tmpa_dim=\dimen344
 \l__fontspec_tmpb_dim=\dimen345
 \l__fontspec_tmpc_dim=\dimen346
@@ -1136,24 +1137,67 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box88
+)
+\tc@llx=\dimen347
+\tc@lly=\dimen348
+\tc@urx=\dimen349
+\tc@ury=\dimen350
+Package trimclip Info: Using driver 'tc-xetex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2018/04/08 v2.1 Clipping driver for xetex
+))
+\adjbox@Width=\dimen351
+\adjbox@Height=\dimen352
+\adjbox@Depth=\dimen353
+\adjbox@Totalheight=\dimen354
+\adjbox@pwidth=\dimen355
+\adjbox@pheight=\dimen356
+\adjbox@pdepth=\dimen357
+\adjbox@ptotalheight=\dimen358
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count293
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box89
+\sift@deathcycles=\count294
+\@vwid@loff=\dimen359
+\@vwid@roff=\dimen360
 )) (./ms.aux)
 \openout1 = `ms.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 128.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 145.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1199,115 +1243,167 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 128.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 128.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 128.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 128.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 128.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 128.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 128.
-LaTeX Font Info:    Redeclaring math accent \check on input line 128.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 128.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 128.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 128.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 128.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 145.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 145.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 145.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 145.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 145.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 145.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 145.
+LaTeX Font Info:    Redeclaring math accent \check on input line 145.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 145.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 145.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 145.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 145.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 128.
+(Font)              `operators' in the math version `normal' on input line 145.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 128.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 145.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 128.
+(Font)              `operators' in the math version `bold' on input line 145.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 128.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 145.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 128.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 128.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 128.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 128.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 128.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 145.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 128.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 128.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 128.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 128.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 145.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <61.92> not available
-(Font)              size <24.88> substituted on input line 130.
+(Font)              size <24.88> substituted on input line 147.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <43> not available
-(Font)              size <24.88> substituted on input line 130.
+(Font)              size <24.88> substituted on input line 147.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <29.86> not available
-(Font)              size <24.88> substituted on input line 130.
+(Font)              size <24.88> substituted on input line 147.
 
 
-Overfull \hbox (132.14178pt too wide) in paragraph at lines 130--130
+Overfull \hbox (132.14178pt too wide) in paragraph at lines 147--147
  [][] 
  []
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <51.6> not available
-(Font)              size <24.88> substituted on input line 130.
+(Font)              size <24.88> substituted on input line 147.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <35.83> not available
-(Font)              size <24.88> substituted on input line 130.
+(Font)              size <24.88> substituted on input line 147.
 
 
-Overfull \hbox (132.14178pt too wide) in paragraph at lines 130--130
+Overfull \hbox (132.14178pt too wide) in paragraph at lines 147--147
  [][] 
  []
 
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
 File: src/D-Pine.eps Graphic file (type eps)
 <src/D-Pine.eps>
 File: src/CS21.png Graphic file (type bmp)
 <src/CS21.png>
+LaTeX Font Info:    Calculating math sizes for size <38> on input line 166.
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <38> not available
+(Font)              size <35.83> substituted on input line 166.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <26.59988> not available
+(Font)              size <24.88> substituted on input line 166.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <19> not available
+(Font)              size <17.28> substituted on input line 166.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <38> not available
+(Font)              size <35.83> substituted on input line 166.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <26.59988> not available
+(Font)              size <24.88> substituted on input line 166.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <19> not available
+(Font)              size <17.28> substituted on input line 166.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <38> not available
+(Font)              size <24.88> substituted on input line 166.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <26.59988> not available
+(Font)              size <24.88> substituted on input line 166.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19> not available
+(Font)              size <17.28> substituted on input line 166.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <38> not available
+(Font)              size <35.83> substituted on input line 166.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <26.59988> not available
+(Font)              size <24.88> substituted on input line 166.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19> not available
+(Font)              size <17.28> substituted on input line 166.
+
 Missing character: There is no ’ in font ec-lmr17!
 Missing character: There is no ’ in font ec-lmr17!
-
-Underfull \hbox (badness 2452) in paragraph at lines 182--182
-[]\T1/lmr/m/n/29.86 The most up to date OPLIB ta-bles in-clude
- []
-
 File: src/Figures/HRDiagramOPALvsOPLIB_SCCM.pdf Graphic file (type pdf)
 <use src/Figures/HRDiagramOPALvsOPLIB_SCCM.pdf>
-File: src/Figures/Kippenhan.pdf Graphic file (type pdf)
-<use src/Figures/Kippenhan.pdf>
-File: src/Figures/OPALOPLIB_popsynth_comp.pdf Graphic file (type pdf)
-<use src/Figures/OPALOPLIB_popsynth_comp.pdf>
+Missing character: There is no ́ in font ec-lmr17!
+File: src/QR.pdf Graphic file (type pdf)
+<use src/QR.pdf>
+File: src/Figures/NBFigs/Kippenhan.pdf Graphic file (type pdf)
+<use src/Figures/NBFigs/Kippenhan.pdf>
+File: src/Figures/NBFigs/OPALOPLIB_popsynth_comp_clampedTime.pdf Graphic file (
+type pdf)
+<use src/Figures/NBFigs/OPALOPLIB_popsynth_comp_clampedTime.pdf>
+File: src/Figures/NBFigs/OPAL_Jao_locator.pdf Graphic file (type pdf)
+<use src/Figures/NBFigs/OPAL_Jao_locator.pdf>
+File: src/Figures/NBFigs/OPLIB_Jao_locator.pdf Graphic file (type pdf)
+<use src/Figures/NBFigs/OPLIB_Jao_locator.pdf>
 [1
 
 ] (./ms.aux)
@@ -1320,12 +1416,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 27409 strings out of 492962
- 608166 string characters out of 6135709
- 737900 words of memory out of 5000000
- 31015 multiletter control sequences out of 15000+600000
- 573277 words of font info for 73 fonts, out of 8000000 for 9000
+ 28185 strings out of 492962
+ 621696 string characters out of 6135709
+ 754043 words of memory out of 5000000
+ 31758 multiletter control sequences out of 15000+600000
+ 590625 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,10n,84p,802b,938s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,14n,84p,802b,1092s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ms.pdf (1 page).
